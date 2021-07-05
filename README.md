@@ -1,10 +1,10 @@
 # Explore Operators and Simplify App Deployment
 ## Steps
-- Create Project & Deploy frontend app
-- Install IBM Cloud Operator from Operator Hub
-- Create a Cloudant service
-- Deploy new application back-end
-- Configure Application to Use Cloudant
+- <a href="https://github.com/IBMDeveloperMEA/explore-operators/blob/master/README.md">Create Project & Deploy frontend app</a>
+- <a href="https://github.com/IBMDeveloperMEA/explore-operators/blob/master/ex2.md">Install IBM Cloud Operator from Operator Hub</a>
+- <a href="https://github.com/IBMDeveloperMEA/explore-operators/blob/master/ex3.md">Create a Cloudant service</a>
+- <a href="https://github.com/IBMDeveloperMEA/explore-operators/blob/master/ex4.md">Deploy new application back-end</a>
+- <a href="https://github.com/IBMDeveloperMEA/explore-operators/blob/master/ex5.md">Configure Application to Use Cloudant</a>
 ## Exercise 1 - Create Project & Deploy app
 In this exercise, deploy a simple Node.js Express application - "Example Health". Example Health is a simple UI for a patient health records system. We will use this example to demonstrate key OpenShift features throughout this workshop.
 Deploy Example Health

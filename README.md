@@ -35,13 +35,18 @@ Optionally specify a Display Name and Description.
 6.	Let's deploy the application by selecting the From Git tile.
  <br>![image](https://user-images.githubusercontent.com/36239840/124443044-6389c580-dd8e-11eb-9590-c0fad9061057.png)<br>
 
-7.	In the Git Repo URL field, enter: https://github.com/IBM/ibm-dte-openlab-samples.
+7.	In the Git Repo URL field, enter: 
+```
 https://github.com/IBM/ibm-dte-openlab-samples
+```
+
 8.	Press the tab key to validate the repository path.
 Note: If you receive an error regarding invalid repository, make sure you do not have any trailing spaces in the repo field. You can ignore the "Unable to detect the builder image" message, we will fix that in the next step.
 9.	Click Show Advanced Git Options.
 10.	Enter /Red Hat OpenShift on IBM Cloud/node-s2i-openshift-master/ in the Context Dir field.
+```
 Red Hat OpenShift on IBM Cloud/node-s2i-openshift-master/
+```
 Note: there is a leading "/" already in the entry field. If you copy from the lab guide, click in the field and do a paste or control v, the correct value will be: "/Red Hat OpenShift on IBM Cloud/node-s2i-openshift-master/".
 <br> ![image](https://user-images.githubusercontent.com/36239840/124443070-6c7a9700-dd8e-11eb-93e3-ca7d3ea2ea33.png)<br>
 

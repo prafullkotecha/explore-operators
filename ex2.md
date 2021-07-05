@@ -22,6 +22,40 @@ Note: You need to create the free "Lite" instance of cloudant in your personal I
 ```
 ibmcloud login -r ##OPENSHIFT.region##
 ```
-
+6.	Set your CF org, space and resource group where the Cloudant service is created.
+The resource group is usually named default or Default -- case-sensitive. Note: If you renamed your default resource group, you need to specify an existing resource group in your account. If you are prompted to select a space, select the dev space.
+```
+ibmcloud target --cf -g default
+```
+7.	Verify that all fields are set:
+```
+ibmcloud target
+```
+8.	Log in to your OpenShift cluster
+```
+oc login
+```
+9.	If project is not set to default, set cluster project to default.
+```
+oc project default
+```
+10.	Use the helper script provided by IBM to create a new API token and register it as a secret in your OpenShift cluster.
+```
+curl -sL https://raw.githubusercontent.com/IBM/cloud-operators/master/hack/configure-operator.sh | bash
+```
+Sample output:
+```
+secret/ibmcloud-operator-secret created
+configmap/ibmcloud-operator-defaults created
++ rm -rf /tmp/tmp.FDHaUEVqxd
+```
+11.	Verify that all the fields in data are set for the configmap (org, region, resourceGroup and space).
+```
+oc get configmap/ibmcloud-operator-defaults -o yaml -n default
+```
+12.	Verify that all the fields in data are set for the secret (api-key and region):
+```
+oc get secret/ibmcloud-operator-secret -o yaml -n default
+```
 
 ## <a href="https://github.com/IBMDeveloperMEA/explore-operators/blob/master/ex3.md">Next Step: Create a Cloudant service</a>

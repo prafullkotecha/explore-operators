@@ -1,4 +1,4 @@
-## Exercise 3 - Deploy new application back-end
+## Exercise 4 - Deploy new application back-end
 We are now ready to deploy our back-end database application. This database is used to store patient data in the Health Care application. We will use the OpenShift CLI to deploy the application.
 1.	Using Terminal #1, set project to example-health.
 ```
@@ -29,8 +29,10 @@ Once the application is deployed (this might take a minute), notice the pod gets
 ```
 url
 ```
-If you do not see the cloudant-binding in the resource pulldown, you most likely created the operator service and binding in the default project instead of the example-health project. If this is the case, you need to delete the existing binding and service in the IBM Cloud operator and recreate them using the example-health project. Refer to back to Exercise 2 for directions.
+If you do not see the cloudant-binding in the resource pulldown, you most likely created the operator service and binding in the default project instead of the example-health project. If this is the case, you need to delete the existing binding and service in the IBM Cloud operator and recreate them using the example-health project. Refer to back to Exercise 3 for directions.
+```
 CLOUDANT_URL
+```
 <br>![image](https://user-images.githubusercontent.com/36239840/124463946-a35ba780-dda4-11eb-877d-5a8792ca050a.png)<br>
 8.	Click Save.
 <br>![image](https://user-images.githubusercontent.com/36239840/124464050-c0907600-dda4-11eb-86fd-c6a59e0e58b1.png)<br>
@@ -38,4 +40,4 @@ CLOUDANT_URL
 <br>![image](https://user-images.githubusercontent.com/36239840/124464083-cbe3a180-dda4-11eb-95ae-c8134119b25f.png)<br>
 It might take a few minutes for the build and deployment to complete. Wait until you see the green checkbox before proceeding to the next exercise.
 
-## <a href="https://github.com/IBMDeveloperMEA/explore-operators/blob/master/ex5.md">Next Step: Exercise 4 - Configure Application to Use Cloudant</a>
+## <a href="https://github.com/IBMDeveloperMEA/explore-operators/blob/master/ex5.md">Next Step: Exercise 5 - Configure Application to Use Cloudant</a>

@@ -1,4 +1,4 @@
-## Install IBM Cloud Operator from Operator Hub
+## Exercise 2 - Install IBM Cloud Operator from Operator Hub
 Let's understand exactly how Operators work. In the first exercise, you deployed a simple application using a DeploymentConfig and Pods -- these are "default resources" that come with OpenShift. A custom resource definition (CRD) allows you to create resources that are not necessarily running within Kubernetes, such as an IBM Cloud service. Operators manage the lifecycle of resources and create CRDs, allowing you to manage custom resources the native "Kubernetes" way.
 The IBM Cloud Operator provides a simple Kubernetes CRD-Based API to provision and bind IBM public cloud services on your Kubernetes cluster. With this operator, you can simply provide service and binding custom resources as part of your Kubernetes application templates and let the operator reconciliation logic ensure that the required services and credentials are automatically created and available for your application.
 1.	Navigate to your OpenShift web console, access the Administrator perspective, and click Operators > OperatorHub.
@@ -58,4 +58,4 @@ oc get configmap/ibmcloud-operator-defaults -o yaml -n default
 oc get secret/ibmcloud-operator-secret -o yaml -n default
 ```
 
-## <a href="https://github.com/IBMDeveloperMEA/explore-operators/blob/master/ex3.md">Next Step: Create a Cloudant service</a>
+## <a href="https://github.com/IBMDeveloperMEA/explore-operators/blob/master/ex3.md">Next Step: Exercise 3 - Create a Cloudant service</a>

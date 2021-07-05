@@ -1,5 +1,11 @@
 # Explore Operators and Simplify App Deployment
-### Exercise 1 - Create Project & Deploy app
+## Steps
+- Create Project & Deploy frontend app
+- Install IBM Cloud Operator from Operator Hub
+- Create a Cloudant service
+- Deploy new application back-end
+- Configure Application to Use Cloudant
+## Exercise 1 - Create Project & Deploy app
 In this exercise, deploy a simple Node.js Express application - "Example Health". Example Health is a simple UI for a patient health records system. We will use this example to demonstrate key OpenShift features throughout this workshop.
 Deploy Example Health
 1.	Launch the OpenShift web console, if not already running.

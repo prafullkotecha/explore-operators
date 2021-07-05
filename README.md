@@ -1,2 +1,1 @@
-# ibm-dte-openlab-samples
-Repositoy for IBM DTE OpenLabs samples
+# Explore Operators and Simplify App Deployment

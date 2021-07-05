@@ -53,9 +53,13 @@ Note: there is a leading "/" already in the entry field. If you copy from the la
 11.	Scroll down and select the Node.js tile under Builder Image.
  <br>![image](https://user-images.githubusercontent.com/36239840/124443098-71d7e180-dd8e-11eb-87e7-74469144eceb.png)<br>
 
-12.	Scroll down and change Application Name to patient-ui and Name to node-s-2-i-openshift.
+12.	Scroll down and change Application Name to ```patient-ui``` and Name to ```node-s-2-i-openshift```.
+```
 patient-ui
+```
+```
 node-s-2-i-openshift
+```
 Note: These values are used later in this lab as well as Lab 2. If you change these names, remember the values and make appropriate changes in the subsequent steps.
 <br> ![image](https://user-images.githubusercontent.com/36239840/124443119-77cdc280-dd8e-11eb-9bad-d57f32323342.png)<br>
 

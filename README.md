@@ -63,4 +63,4 @@ This panel displays the details about your Pods, Builds, Services and Routes. No
 - Services: access to pods and listening ports
 - Routes: exposed service route using LoadBalancer provided by IBM Cloud network
 
-### Next Step: Install IBM Cloud Operator from Operator Hub
+### <a href="https://github.com/IBMDeveloperMEA/explore-operators/blob/master/ex2.md">Next Step: Install IBM Cloud Operator from Operator Hub</a>

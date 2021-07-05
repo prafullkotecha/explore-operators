@@ -1,4 +1,4 @@
-## Exercise 4 - Configure Application to Use Cloudant
+## Exercise 5 - Configure Application to Use Cloudant
 The last step is to configure the Patient Health application front end to use the new database back end application.
 1.	Access the pateinet-ui application.
 <br>![image](https://user-images.githubusercontent.com/36239840/124464525-5926f600-dda5-11eb-8924-5fba90de8973.png)<br>

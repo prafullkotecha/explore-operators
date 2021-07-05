@@ -1,4 +1,4 @@
-## Create a Cloudant service
+## Exercise 3 - Create a Cloudant service
 In this exercise, use the Custom Resource Definitions to create the Cloudant service. Note: Be sure the Project is set to example-health.
 1.	In the OpenShift web console, return to the IBM Cloud Operator -> Operator Details page.
 You'll see that there's two APIs available -- a Service and a Binding. A Service allows us to create the actual Cloudant instance.
@@ -52,4 +52,4 @@ Wait a couple minutes for the binding to provision and come Online.
 13.	Verify your credentials for accessing your Cloudant DB. Make sure there is data securely stored in the secret.
 <br>![image](https://user-images.githubusercontent.com/36239840/124459422-27ab2c00-dd9f-11eb-843f-3a3e97ef46c4.png)<br>
 
-## <a href="https://github.com/IBMDeveloperMEA/explore-operators/blob/master/ex4.md">Next Step: Deploy new application back-end</a>
+## <a href="https://github.com/IBMDeveloperMEA/explore-operators/blob/master/ex4.md">Next Step: Exercise 4 - Deploy new application back-end</a>
